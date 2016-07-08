@@ -39,4 +39,13 @@ var_dump(explode( " " , $str));
 echo implode(", ", $myArray);
 var_dump(implode(", ", $myArray));
 
+//count - counts the number of rows in the array
+var_dump(count($myArray));
+
+//sort - sorts the array
+var_dump(sort($myArray));
+echo sort($myArray);
+
+echo is_numeric($myArray); 
+
 ?>
