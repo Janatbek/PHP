@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Survey Form</title>
 	<style type="text/css">
+	
 		form{
 			display: inline-block;
     		width: 260px;
@@ -26,7 +27,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<form action="index.php" method="post">
+		<form action="success.php" method="post">
 			<div>
 				<label for="name">Your Name:</label>
 				<input type="text" name="first_name">
@@ -56,14 +57,9 @@
 				<textarea name="comment"></textarea>
 				<input type="submit" value="Submit">
 			</div>
-			<div id="output">
-				<h3>Submitted Information</h3>
-				<p> Your name is: <?php echo $_POST['first_name']; ?> </p>
-				<p> Your location is: <?php echo $_POST['location']; ?> </p>
-				<p> Your language is: <?php echo $_POST['language']; ?> </p>
-				<p> Your comment is: <?php echo $_POST['comment']; ?> </p>
-			</div>
 		</form>
+
+		
 
 
 	</div>
