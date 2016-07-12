@@ -5,10 +5,9 @@
 	<title>Get and Post</title>
 </head>
 <body>
-	<form action="some_page.php" method="post">
-		<input type="text" name="first_name">
-		<input type="text" name="last_name">
-		<input type="submit">
-	</form>	
+		<form action="process.php" method="get">
+		    <input type="text" name="search_query">
+		    <input type="submit" value="Search">
+		</form>
 </body>
 </html>

@@ -1,0 +1,22 @@
+1. Error in Host:
+
+Warning: mysqli_connect(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/janatbeksharsheyev/Sites/codingdojo/php/connection.php on line 13.
+
+fixed: giving the right host name: loclahost.
+
+2. Error in user login:
+Warning: mysqli_connect(): (HY000/1045): Access denied for user 'rot'@'localhost' (using password: YES) in /Users/janatbeksharsheyev/Sites/codingdojo/php/connection.php on line 13
+
+fixed giving a right login info.
+
+3. Error in changing password. 
+
+Warning: mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Users/janatbeksharsheyev/Sites/codingdojo/php/connection.php on line 13.
+
+fixed by changing a password.
+
+4. Error in mysql connection.
+
+Warning: mysqli_connect(): (HY000/1049): Unknown database 'titer' in /Users/janatbeksharsheyev/Sites/codingdojo/php/connection.php on line 13.
+
+fixed giving a right database file.
